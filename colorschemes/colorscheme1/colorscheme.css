@@ -1,0 +1,207 @@
+/*** Normalized ***/
+
+
+/*----------------------------------------------------------------------------
+	colorscheme.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background-image: url(images/static/contentbg.gif);
+    background-repeat: repeat-y;
+    background-position: left;
+    background-color: #ffffff;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background-image: url(images/static/headerbg.jpg);
+    background-repeat: no-repeat;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: url(../../images/dynamic/key_visual1.jpg) no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+/*--- caption --------------------------------------------------------------*/
+
+#slogan {
+    color: #cc0000;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a.main_nav_item {
+    background: url(../../images/dynamic/buttonset1/n1.gif) no-repeat;
+    color: #990000;
+    background-position: left center;
+}
+
+#main_nav_list a.main_nav_item:hover {
+    background: url(../../images/dynamic/buttonset1/n1hover.gif) no-repeat;
+    color: #990000;
+    background-position: left center;
+}
+
+#main_nav_list a.main_nav_active_item {
+    background: url(../../images/dynamic/buttonset1/n1activeitem.gif) no-repeat;
+    color: #333333;
+    background-position: left center;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_list a.sub_nav_item {
+    color: #990033;
+}
+
+.sub_nav_list a.sub_nav_item:hover {
+    color: #333333;
+    background-image: url(../../images/dynamic/buttonset1/subnav1active.gif);
+    background-repeat: no-repeat;
+    background-position: -2px;
+}
+
+.sub_nav_list a.sub_nav_active_item {
+    color: #333333;
+    background-image: url(../../images/dynamic/buttonset1/subnav1active.gif);
+    background-repeat: no-repeat;
+    background-position: -2px;
+}
+
+/*--- search ---------------------------------------------------------------*/
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    background-image: url(images/static/footerbg.gif);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#footer_text {
+    color: #ffffff;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #000000;
+    background-image: url(images/static/bg.gif);
+    background-repeat: repeat;
+    background-color: #990000;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content {
+    color: #333333;
+}
+
+.content p {
+    color: #333333;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+.content h1 {
+    color: #333333;
+}
+
+.content h2 {
+    color: #333333;
+}
+
+.content h3 {
+    color: #333333;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+.content a:link {
+    color: #990000;
+}
+
+.content a:visited {
+    color: #990000;
+}
+
+.content a:hover {
+    color: #ff0000;
+}
+
+.content a:active {
+    color: #990033;
+}
+
+.content table {
+    border-color: #f05a5a;
+}
+
+.content th {
+    background-color: #fbd1d1;
+}
+
+.content tr.odd {
+    background-color: #ffffff;
+}
+
+.content tr {
+    background-color: #feecec;
+}
+
+.content tr.even {
+    background-color: #feecec;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #f05c5c;
+}
+
+.content legend {
+    color: #84685e;
+}
+
+.content label {
+    color: #84685e;
+}
+
+.content input {
+    border-color: #f05c5c;
+}
+
+.content textarea {
+    border-color: #f05c5c;
+}
+
+.content button {
+    background-color: #ffe7ea;
+    border-color: #fa7674;
+    color: #d94947;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
